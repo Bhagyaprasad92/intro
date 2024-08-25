@@ -11,7 +11,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #333;
     line-height: 1.6;
-    background-image: url('background-image.jpg');
+    background-image: url('background-image');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -31,10 +31,16 @@ body {
     top: 0;
     z-index: 1000;
 }
-
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+}
 .logo span {
     color: #ff6347;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Ensure this matches one of the weights you've loaded (300, 400, 500, 600, 700, 800, 900) */
 }
+
 
 .nav ul {
     list-style: none;
@@ -107,7 +113,6 @@ body {
     position: relative;
     animation: zoomIn 2s;
 }
-
 .services h2::after {
     content: '';
     width: 80px;
